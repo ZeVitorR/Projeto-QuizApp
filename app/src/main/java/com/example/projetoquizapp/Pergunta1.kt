@@ -3,13 +3,11 @@ package com.example.projetoquizapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.projetoquizapp.databinding.ActivityMainBinding
 import com.example.projetoquizapp.databinding.ActivityPergunta1Binding
 
 class Pergunta1 : AppCompatActivity() {
 
     private lateinit var binding: ActivityPergunta1Binding
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pergunta1)
@@ -17,22 +15,22 @@ class Pergunta1 : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.buttonCerto1.setOnClickListener{
-            var i = Intent(this,Pergunta2::class.java)
+            val i = Intent(this,Pergunta2::class.java)
             startActivity(i)
         }
 
         binding.buttonErrado1.setOnClickListener{
-            var i = Intent(this,TelaErro::class.java)
+            val i = Intent(this,TelaErro::class.java)
             startActivity(i)
         }
 
         binding.buttonErrado2.setOnClickListener{
-            var i = Intent(this,TelaErro::class.java)
+            val i = Intent(this,TelaErro::class.java)
             startActivity(i)
         }
 
         binding.buttonErrado3.setOnClickListener{
-            var i = Intent(this,TelaErro::class.java)
+            val i = Intent(this,TelaErro::class.java)
             startActivity(i)
         }
     }
