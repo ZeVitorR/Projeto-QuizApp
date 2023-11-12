@@ -3,7 +3,6 @@ package com.example.projetoquizapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.projetoquizapp.databinding.ActivityPergunta1Binding
 import com.example.projetoquizapp.databinding.ActivityPergunta5Binding
 
 class Pergunta5 : AppCompatActivity() {
@@ -18,22 +17,22 @@ class Pergunta5 : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.buttonCerto1.setOnClickListener{
-            var i = Intent(this,TelaFinal::class.java)
+            val i = Intent(this,TelaFinal::class.java)
             startActivity(i)
         }
 
         binding.buttonErrado1.setOnClickListener{
-            var i = Intent(this,TelaErro::class.java)
+            val i = Intent(this,TelaErro::class.java)
             startActivity(i)
         }
 
         binding.buttonErrado2.setOnClickListener{
-            var i = Intent(this,TelaErro::class.java)
+            val i = Intent(this,TelaErro::class.java)
             startActivity(i)
         }
 
         binding.buttonErrado3.setOnClickListener{
-            var i = Intent(this,TelaErro::class.java)
+            val i = Intent(this,TelaErro::class.java)
             startActivity(i)
         }
     }
