@@ -57,9 +57,11 @@ Android Studio - O ambiente de desenvolvimento usado
 Java/Kotlin - Linguagem de programação
 
 
-Contato
+Sobre os Autores
 
-José Vitor Rodrigues - rodriguesze6@gmail.com
+José Vitor Rodrigues(1948322) - rodriguesze6@gmail.com
+
+Pedro de Freitas Alves Neto(1919020) - pedro_freitas28@hotmail.com
 
 Link do Projeto: https://github.com/ZeVitorR/Projeto-QuizApp
 
